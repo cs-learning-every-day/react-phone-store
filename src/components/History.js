@@ -22,7 +22,7 @@ export default class History extends Component {
                           <img className="card-img" src={p.img} alt="" />
                         </div>
                         <div className="col-2">
-                          <Link to="/detail">{p.title}</Link>
+                          <Link to="/details">{p.title}</Link>
                         </div>
                         <div className="col-2">￥{p.price}</div>
                         <div className="col-2">{p.count}</div>

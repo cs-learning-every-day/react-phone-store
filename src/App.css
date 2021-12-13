@@ -8,9 +8,16 @@
 }
 
 body {
-  font-family: 'Ma Shan Zheng', cursive !important;
+  /* font-family: 'Ma Shan Zheng', cursive !important; */
   background: var(--mainWhite) !important;
   color: var(--mainDark) !important;
+  /* 苹果字体 */
+  font-size: 17px;
+  line-height: 1.5294717647;
+  font-weight: 400;
+  letter-spacing: -0.021em;
+  font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  font-style: normal;
 }
 
 .text-title {

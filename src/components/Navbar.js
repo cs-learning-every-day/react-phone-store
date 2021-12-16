@@ -19,9 +19,9 @@ export default class Navbar extends Component {
           </li>
         </ul>
         <Link to="/history" className="ml-auto">
-          <ButtonContainer>
+          <ButtonContainer cart>
             <span className="mr-2">
-              <i className="fas fa-cart-plus " />
+              <i className="fas fa-history " />
             </span>
             购买记录
           </ButtonContainer>
@@ -38,7 +38,6 @@ export default class Navbar extends Component {
     );
   }
 }
-
 
 const Nav = styled.nav`
   background: var(--mainBlue);

@@ -54,7 +54,7 @@ export default class Details extends Component {
                       <ButtonContainer>返回产品首页</ButtonContainer>
                     </Link>
                     <ButtonContainer
-                      cart
+                      cart={inCart ? true : false}
                       disabled={inCart ? true : false}
                       onClick={() => {
                         value.addToCart(id);
